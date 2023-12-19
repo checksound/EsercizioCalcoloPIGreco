@@ -23,9 +23,7 @@ public class InputHandlerThread extends Thread {
     }
 
     public void doStop() {
-        System.out.println("DO STOP INPUT");
       if(sc!= null)
           sc.close();
-        System.out.println("FINE DO STOP INPUT");
     }
 }

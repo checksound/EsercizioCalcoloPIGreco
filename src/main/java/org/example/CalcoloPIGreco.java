@@ -2,7 +2,7 @@ package org.example;
 
 public class CalcoloPIGreco {
 
-    public static double doCalcoloPIGreco(double accurancy) {
+    public static double doCalcoloPIGreco(double accuracy) {
 
         double result = 0;
 
@@ -17,14 +17,17 @@ public class CalcoloPIGreco {
             if(Thread.interrupted())
                 return result;
 
-            if(Math.abs(Math.PI - result) <= accurancy)
+            if(Math.abs(Math.PI - result) <= accuracy)
                 return result;
         }
     }
 
     public static void main(String[] args) {
 
-        double result = CalcoloPIGreco.doCalcoloPIGreco(0.0000001);
+        double accuracy = 0.000000001;
+        double start = System.currentTimeMillis();
+        double result = CalcoloPIGreco.doCalcoloPIGreco(accuracy);
+        System.out.println("Tempo di calcolo: " + (System.currentTimeMillis() - start));
 
         System.out.println(result + " - difference " + (Math.PI - result));
         System.out.println("Math.PI: " + Math.PI);
