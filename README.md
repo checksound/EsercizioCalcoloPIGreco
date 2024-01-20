@@ -48,3 +48,7 @@ Dato `sc` oggetto di tipo `Scanner`, `sc.hasNextLine()` se l'utente non digita n
 blocca il thread e non è possibile sboccarlo neppure con la `close` su `Scanner`.
 
 https://stackoverflow.com/questions/4983065/how-to-interrupt-java-util-scanner-nextline-call
+
+## Utilizzo di BigDecimal
+
+https://blogs.oracle.com/javamagazine/post/four-common-pitfalls-of-the-bigdecimal-class-and-how-to-avoid-them
