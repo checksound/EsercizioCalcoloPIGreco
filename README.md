@@ -1,6 +1,13 @@
 # Esercizio Calcolo PiGreco
 
-https://iisponti.gitbook.io/tecnologie_quinta_2023_24/concorrenza#calcolo-approssimazioni-di-pi-greco
+Partendo da: 
+
+https://iisponti.gitbook.io/tecnologie_quinta_2023_24/esercizio-calcolo-pigreco
+
+Creare un'applicazione che alla partenza chiede all'utente l'accuratezza del risultato 
+del calcolo del Pi Greco. L'utente può comunque in qualunque momento interrompere l'esecuzione 
+del calcolo e ottenere così il risultato parziale o ottenere il risultato aspettando la 
+conclusione del calcolo.
 
 ## How to interrupt java.util.Scanner nextLine call
 
